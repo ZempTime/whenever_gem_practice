@@ -1,0 +1,7 @@
+<h1>Jobs Listing:</h1>
+
+<% @jobs.each do |job| %>
+  <p>
+    <%= "Name: #{job.name}, Decription: #{job.description}, created at: #{job.created_at}" %>
+  </p>
+<% end %>
